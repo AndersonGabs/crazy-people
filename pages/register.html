@@ -5,19 +5,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crazy People - A rede social que te leva a loucura!</title>
-    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="../css/global.css">
 </head>
 
 <body>
     <div class="grid-vertical">
         <div class="container-content">
-        <h1 class="title">Crazy People</h1>
-        <img src="./images/bem_vindo.png" class="img-full-width" alt="bem_vindo" >
+            <h1 class="title"> Cadastre-se na rede social </br> que é só Loucura! </h1>
+            <form id="form-register" onsubmit="return false" method="post" class="form-center">
+                <div class="form-group">
+                    <label>Nome</label>
+                    <input type="text" name="name" id="name" placeholder="Nome Completo">
+                </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" name="email" id="email" placeholder="email">
+                </div>
+                <div class="form-group">
+                    <label>Senha</label>
+                    <input type="password" name="password" id="password">
+                </div>
+                <div class="form-group">
+                    <label>Confirme a Senha</label>
+                    <input type="password" name="password-confirm" id="password-confirm">
+                </div>
+            </form>
         </div>
-        <div class="group-buttons">
-        <button class="button button-primary">Cadastrar</button>
-        <button class="button button-secondary">Já tenho conta</button>
-    </div>
+        <div class=" group-buttons">
+            <a class="button button-primary">Cadastrar</a>
+            <a class="button button-cancel" href="../index.html">Cancelar</a>
+        </div>
     </div>
 </body>
 
