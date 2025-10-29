@@ -1,15 +1,23 @@
+html{
+    font-size: 18px;
+  
+}
 body {
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .title {
     flex: 1;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 24px;
+    display: flex;
+    font-size: 1.5rem;
     text-align: center;
     font-weight: normal;
-    margin-top: 10vh;
+    
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
 }
 
 .grid-vertical {
@@ -17,15 +25,17 @@ body {
     flex-direction: column;
     max-width: 480px;
     margin: auto;
-    gap: 5%;
+   gap: 3%;
     align-items: center;
     height: 100vh;
+    
 }
 
 .container-content {
     display: flex;
     flex-direction: column;
     height: 80vh;
+   
    
 }
 
@@ -42,16 +52,21 @@ body {
     flex-direction: column;
     width: 95%;
     margin-bottom: 40px;
-    max-height: 48px;
+    
+   
 }
 
-.button {
+a.button {
+    display:flex;
     flex: 1;
-    border-radius: 10px;
-    padding: 12px 20px;
     border-radius: 24px;
-    font-size: 16px;
+    font-size: 1.1rem;
     cursor: pointer;
+    max-height: 48px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+       
 
 }
 
