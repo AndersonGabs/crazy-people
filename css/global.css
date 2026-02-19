@@ -110,7 +110,7 @@ a.button {
     flex-direction: column;
 
     margin-bottom: 8px;
-    width: 95%;
+    width: 100%;
     margin: 12px auto;
 
 }
@@ -120,33 +120,52 @@ a.button {
     font-size: 0.8rem;
     margin-bottom: 5px;
 }
+
 .form-group input {
     border: 1px solid #616468;
     padding: 12px;
     border-radius: 8px;
     font-size: 0.8rem;
     width: 95%;
-    
-    
+
+
 }
+
 .form-group .input-password {
 
     width: 100%;
     display: flex;
     position: relative;
 }
-.form-group .input-password .icon-eye{
+
+.form-group .input-password .icon-eye {
     position: absolute;
     top: 13px;
     right: 13px;
     color: #afb1b6;
     cursor: pointer;
-   
-    
 }
 
+.center {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
 
 .form-group input::placeholder {
     color: #afb1b6;
     opacity: 1;
+}
+
+a.general:link, a.general:visited {
+    color: #2563eb;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+a.general:hover{
+    color: #00c;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: 600;
 }
