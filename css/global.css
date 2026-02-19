@@ -120,13 +120,31 @@ a.button {
     font-size: 0.8rem;
     margin-bottom: 5px;
 }
-
 .form-group input {
     border: 1px solid #616468;
     padding: 12px;
     border-radius: 8px;
     font-size: 0.8rem;
+    width: 95%;
+    
+    
 }
+.form-group .input-password {
+
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+.form-group .input-password .icon-eye{
+    position: absolute;
+    top: 13px;
+    right: 13px;
+    color: #afb1b6;
+    cursor: pointer;
+   
+    
+}
+
 
 .form-group input::placeholder {
     color: #afb1b6;
